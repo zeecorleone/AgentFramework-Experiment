@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/ZeroToFirstAgent/">
+    <Project Path="AF.ZeroToFirstAgent/AF.ZeroToFirstAgent.csproj" />
+  </Folder>
+  <Project Path="AF.Shared/AF.Shared.csproj" />
+  <Project Path="AFExperiments/AFExperiments.csproj" />
+</Solution>
