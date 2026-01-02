@@ -1,6 +1,8 @@
 <Solution>
   <Folder Name="/ZeroToFirstAgent/">
-    <Project Path="AF.ZeroToFirstAgent/AF.ZeroToFirstAgent.csproj" />
+    <Project Path="AF.ZeroToFirstAgent.AzueAIFoundry/AF.ZeroToFirstAgent.AzueAIFoundry.csproj" />
+    <Project Path="AF.ZeroToFirstAgent.OpenAI/AF.ZeroToFirstAgent.OpenAI.csproj" />
+    <Project Path="AF.ZeroToFirstAgent/AF.ZeroToFirstAgent.AzureOpenAI.csproj" />
   </Folder>
   <Project Path="AF.Shared/AF.Shared.csproj" />
   <Project Path="AFExperiments/AFExperiments.csproj" />

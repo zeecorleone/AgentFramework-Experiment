@@ -9,7 +9,7 @@ using AFExperiments;
 using Microsoft.Agents.AI;
 using OpenAI.Chat;
 
-const string endpoint = Constants.Endpoint;
+const string endpoint = Constants.Endpoint_AzureOpenAI;
 const string apikey = Constants.ApiKey;
 const string model = Constants.Model;
 
