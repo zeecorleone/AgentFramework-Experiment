@@ -4,6 +4,13 @@
     <Project Path="AF.ZeroToFirstAgent.OpenAI/AF.ZeroToFirstAgent.OpenAI.csproj" />
     <Project Path="AF.ZeroToFirstAgent/AF.ZeroToFirstAgent.AzureOpenAI.csproj" />
   </Folder>
+  <Folder Name="/ZeroToFirstAgent/Non-OpenAI-based/">
+    <Project Path="AF.ZeroToFirstAgent.AnthropicClaude/AF.ZeroToFirstAgent.AnthropicClaude.csproj" />
+    <Project Path="ZeroToFirstAgent.GoogleGemini/AF.ZeroToFirstAgent.GoogleGemini.csproj" />
+  </Folder>
+  <Folder Name="/ZeroToFirstAgent/Non-OpenAI-based/Offline/">
+    <Project Path="AF.ZeroToFirstAgent.Olama/AF.ZeroToFirstAgent.Olama.csproj" />
+  </Folder>
   <Project Path="AF.Shared/AF.Shared.csproj" />
   <Project Path="AFExperiments/AFExperiments.csproj" />
 </Solution>
