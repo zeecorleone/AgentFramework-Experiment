@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/TokenUsage/">
+    <Project Path="AF.TokenUsage/AF.TokenUsage.csproj" />
+  </Folder>
   <Folder Name="/ZeroToFirstAgent/">
     <Project Path="AF.ZeroToFirstAgent.AzueAIFoundry/AF.ZeroToFirstAgent.AzueAIFoundry.csproj" />
     <Project Path="AF.ZeroToFirstAgent.OpenAI/AF.ZeroToFirstAgent.OpenAI.csproj" />
