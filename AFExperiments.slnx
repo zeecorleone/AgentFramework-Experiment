@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/SettingsAndConfiguration/">
+    <File Path="MultiProvide-ProductionReady-Setup.md" />
     <Project Path="AF.BlazorServerDI/AF.BlazorServerDI.csproj" />
   </Folder>
   <Folder Name="/TokenUsage/">

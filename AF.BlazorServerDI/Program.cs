@@ -1,10 +1,27 @@
 using AF.BlazorServerDI.Components;
+using AFExperiments;
+using Azure.AI.OpenAI;
+using Microsoft.Agents.AI;
+using OpenAI.Chat;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+AzureOpenAIClient client = new AzureOpenAIClient(
+    new Uri(Constants.Endpoint_AzureOpenAI),
+    new System.ClientModel.ApiKeyCredential(Constants.ApiKey));
+
+builder.Services.AddSingleton(client);
+
+ChatClient chatClient = client.GetChatClient(Constants.Model);
+builder.Services.AddKeyedSingleton("gpt-5-mini", chatClient);
+
+ChatClientAgent agent = chatClient.CreateAIAgent();
+builder.Services.AddKeyedSingleton("gpt-5-mini", agent);
+
 
 var app = builder.Build();
 

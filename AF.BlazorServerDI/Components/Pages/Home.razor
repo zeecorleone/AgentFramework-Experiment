@@ -1,7 +1,22 @@
 ﻿@page "/"
+@rendermode InteractiveServer
 
 <PageTitle>Home</PageTitle>
 
-<h1>Hello, world!</h1>
-
-Welcome to your new app.
+<div class="container mt-5">
+    <h1 class="mb-4">AI Assistant</h1>
+    
+    <div class="mb-3">
+        <label for="questionInput" class="form-label">Ask a question:</label>
+        <InputText id="questionInput" @bind-Value="_question" class="form-control" placeholder="Enter your question here..." />
+    </div>
+    
+    <button type="button" class="btn btn-primary mb-3" @onclick="AskAi">Ask</button>
+    
+    @if (!string.IsNullOrEmpty(_answer))
+    {
+        <div class="alert alert-info">
+            <strong>Answer:</strong> @_answer
+        </div>
+    }
+</div>
