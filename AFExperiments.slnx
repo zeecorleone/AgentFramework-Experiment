@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/SettingsAndConfiguration/">
+    <Project Path="AF.BlazorServerDI/AF.BlazorServerDI.csproj" />
+  </Folder>
   <Folder Name="/TokenUsage/">
     <Project Path="AF.TokenUsage/AF.TokenUsage.csproj" />
   </Folder>
