@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/PersistenceConversations/">
+    <Project Path="AF.PersistentConversationAgent/AF.PersistentConversationAgent.csproj" />
+  </Folder>
   <Folder Name="/SettingsAndConfiguration/">
     <File Path="MultiProvide-ProductionReady-Setup.md" />
     <Project Path="AF.BlazorServerDI/AF.BlazorServerDI.csproj" />
