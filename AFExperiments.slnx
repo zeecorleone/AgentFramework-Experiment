@@ -12,6 +12,7 @@
   <Folder Name="/ToolCalling/">
     <Project Path="AF.ToolCalling.Advance/AF.ToolCalling.Advance.csproj" />
     <Project Path="AF.ToolCalling.Basics/AF.ToolCalling.Basics.csproj" />
+    <Project Path="AF.ToolCalling.FromMcpServer/AF.ToolCalling.FromMcpServer.csproj" />
   </Folder>
   <Folder Name="/ZeroToFirstAgent/">
     <Project Path="AF.ZeroToFirstAgent.AzueAIFoundry/AF.ZeroToFirstAgent.AzueAIFoundry.csproj" />
