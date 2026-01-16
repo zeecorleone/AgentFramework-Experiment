@@ -10,6 +10,7 @@
     <Project Path="AF.TokenUsage/AF.TokenUsage.csproj" />
   </Folder>
   <Folder Name="/ToolCalling/">
+    <Project Path="AF.ToolCalling.Advance/AF.ToolCalling.Advance.csproj" />
     <Project Path="AF.ToolCalling.Basics/AF.ToolCalling.Basics.csproj" />
   </Folder>
   <Folder Name="/ZeroToFirstAgent/">
