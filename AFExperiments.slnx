@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/Others/">
+    <Project Path="AF.ReasoningControl/AF.ReasoningControl.csproj" />
     <Project Path="AF.StructuredOutput/AF.StructuredOutput.csproj" />
   </Folder>
   <Folder Name="/PersistenceConversations/">
