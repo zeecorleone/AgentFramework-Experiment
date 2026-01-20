@@ -1,4 +1,7 @@
 <Solution>
+  <Folder Name="/Others/">
+    <Project Path="AF.StructuredOutput/AF.StructuredOutput.csproj" />
+  </Folder>
   <Folder Name="/PersistenceConversations/">
     <Project Path="AF.PersistentConversationAgent/AF.PersistentConversationAgent.csproj" />
   </Folder>
